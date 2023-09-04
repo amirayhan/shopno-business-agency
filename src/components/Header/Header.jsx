@@ -9,7 +9,7 @@ const Header = () => {
         <div className="header w-full h-[96px] bg-white border-b ">
             <div className="md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex items-center justify-between ">
                 <a href="#" className="logo">
-                    <h2>SHOPNO</h2>
+                    <h3 className="text-5xl">SHOPNO</h3>
                 </a>
                 <ul className="hidden md:flex gap-12 font-bold ">
                     <li>
