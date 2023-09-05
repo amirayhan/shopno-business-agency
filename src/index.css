@@ -49,6 +49,30 @@ h6 {
 .hero {
     background: url("./assets/hero_BG.jpg") no-repeat center/cover;
 }
+.feature_item {
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.feature_item:hover {
+    background: #ff6809;
+}
+.feature_item span,
+.feature_item h3,
+.feature_item p {
+    -webkit-transition: all linear 0.3s;
+    -moz-transition: all linear 0.3s;
+    -ms-transition: all linear 0.3s;
+    -o-transition: all linear 0.3s;
+    transition: all linear 0.3s;
+}
+.feature_item:hover span,
+.feature_item:hover h3,
+.feature_item:hover p {
+    color: #fff;
+}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
