@@ -4,6 +4,7 @@ import Counter from "./components/Counter/Counter";
 import Features from "./components/Features/Features";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
+import Testimonial from "./components/Testimonial/Testimonial";
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
             <Features></Features>
             <About></About>
             <Counter></Counter>
+            <Testimonial></Testimonial>
         </div>
     );
 };

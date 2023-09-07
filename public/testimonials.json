@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "img": "./Testimonial_Person_Img/person1.png",
+        "name": "Jacob Jones",
+        "title": "Co-Founder",
+        "rating": 4,
+        "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam consequatur excepturi dolor dolorem quam cupiditate nobis dolores iste? Similique itaque obcaecati eum iure vel."
+    },
+    {
+        "id": 2,
+        "img": "./Testimonial_Person_Img/person2.png",
+        "name": "David Smith",
+        "title": "President of Sales",
+        "rating": 5,
+        "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam consequatur excepturi dolor dolorem quam cupiditate nobis dolores iste? Similique itaque obcaecati eum iure vel."
+    },
+    {
+        "id": 3,
+        "img": "./Testimonial_Person_Img/person3.png",
+        "name": "John Doe",
+        "title": "Founder",
+        "rating": 3,
+        "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam consequatur excepturi dolor dolorem quam cupiditate nobis dolores iste? Similique itaque obcaecati eum iure vel."
+    },
+    {
+        "id": 4,
+        "img": "./Testimonial_Person_Img/person4.png",
+        "name": "David Smith",
+        "title": "Managing Director",
+        "rating": 5,
+        "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam consequatur excepturi dolor dolorem quam cupiditate nobis dolores iste? Similique itaque obcaecati eum iure vel."
+    },
+    {
+        "id": 5,
+        "img": "./Testimonial_Person_Img/person5.png",
+        "name": "Micle Deno",
+        "title": "President",
+        "rating": 4,
+        "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam consequatur excepturi dolor dolorem quam cupiditate nobis dolores iste? Similique itaque obcaecati eum iure vel."
+    },
+    {
+        "id": 6,
+        "img": "./Testimonial_Person_Img/person6.png",
+        "name": "Dain Ambrose",
+        "title": "Co-Founder",
+        "rating": 3,
+        "feedback": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit numquam consequatur excepturi dolor dolorem quam cupiditate nobis dolores iste? Similique itaque obcaecati eum iure vel."
+    }
+]
