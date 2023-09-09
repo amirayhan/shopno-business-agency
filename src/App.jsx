@@ -5,6 +5,7 @@ import Features from "./components/Features/Features";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Testimonial from "./components/Testimonial/Testimonial";
+import WorkTogether from "./components/WorkTogether/WorkTogether";
 
 const App = () => {
     return (
@@ -15,6 +16,7 @@ const App = () => {
             <About></About>
             <Counter></Counter>
             <Testimonial></Testimonial>
+            <WorkTogether></WorkTogether>
         </div>
     );
 };

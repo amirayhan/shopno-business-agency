@@ -5,11 +5,11 @@ import React from "react";
 const Rating = ({ rating }) => {
     return (
         <div className="flex text-orange-600">
-            {[...Array(rating)].map(() => (
-                <FontAwesomeIcon icon={faStar} />
+            {[...Array(rating)].map((index) => (
+                <FontAwesomeIcon key={index} icon={faStar} />
             ))}
-            {[...Array(5 - rating)].map(() => (
-                <FontAwesomeIcon icon={faStarHalfStroke} />
+            {[...Array(5 - rating)].map((index) => (
+                <FontAwesomeIcon key={index} icon={faStarHalfStroke} />
             ))}
         </div>
     );

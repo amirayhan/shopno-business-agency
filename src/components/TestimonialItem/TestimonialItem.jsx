@@ -4,7 +4,7 @@ import Rating from "../Rating/Rating";
 const TestimonialItem = ({ testimonial }) => {
     const { img, name, title, rating, feedback } = testimonial;
     return (
-        <div className="testimonial_item border p-7 rounded-[30px]">
+        <div className="testimonial_item border p-7 rounded-[30px] md:mx-5">
             <p className="text-1xl italic">"{feedback}"</p>
             <div className="client flex">
                 <div className="img_name flex items-center mt-8">
