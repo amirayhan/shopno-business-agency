@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "category_id": 1,
+        "title": "Project 1",
+        "category": "Web Development",
+        "img": "./Portfolio_Images/item_1.jpg"
+    },
+    {
+        "id": 2,
+        "category_id": 3,
+        "title": "Project 2",
+        "category": "Mobile App Development",
+        "img": "./Portfolio_Images/item_2.jpg"
+    },
+    {
+        "id": 3,
+        "category_id": 2,
+        "title": "Project 3",
+        "category": "Graphic Design",
+        "img": "./Portfolio_Images/item_3.jpg"
+    },
+    {
+        "id": 4,
+        "category_id": 1,
+        "title": "Project 4",
+        "category": "Web Development",
+        "img": "./Portfolio_Images/item_4.jpg"
+    },
+    {
+        "id": 5,
+        "category_id": 3,
+        "title": "Project 5",
+        "category": "Mobile App Development",
+        "img": "./Portfolio_Images/item_5.jpg"
+    },
+    {
+        "id": 6,
+        "category_id": 2,
+        "title": "Project 6",
+        "category": "Graphic Design",
+        "img": "./Portfolio_Images/item_6.jpg"
+    },
+    {
+        "id": 7,
+        "category_id": 1,
+        "title": "Project 7",
+        "category": "Web Development",
+        "img": "./Portfolio_Images/item_7.jpg"
+    },
+    {
+        "id": 8,
+        "category_id": 3,
+        "title": "Project 8",
+        "category": "Mobile App Development",
+        "img": "./Portfolio_Images/item_8.jpg"
+    },
+    {
+        "id": 9,
+        "category_id": 2,
+        "title": "Project 9",
+        "category": "Graphic Design",
+        "img": "./Portfolio_Images/item_9.jpg"
+    },
+    {
+        "id": 10,
+        "category_id": 1,
+        "title": "Project 10",
+        "category": "Web Development",
+        "img": "./Portfolio_Images/item_10.jpg"
+    }
+]
