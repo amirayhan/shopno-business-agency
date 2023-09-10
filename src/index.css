@@ -124,6 +124,7 @@ h6 {
     padding: 12px 20px;
     border: 1px solid #cdcdcd;
     background: #ededed;
+    color: #222;
 }
 .filter_cetagories button.active {
     background: #000;

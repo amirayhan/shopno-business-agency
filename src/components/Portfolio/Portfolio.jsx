@@ -31,7 +31,7 @@ const Portfolio = () => {
                 <div className="filter_cetagories ">
                     <ButtonFilter></ButtonFilter>
                 </div>
-                <div className="md:max-w-[1480px] max-w-[600] m-auto grid md:grid-cols-4 gap-3 pt-4">
+                <div className="md:max-w-[1480px] max-w-[600] m-auto grid md:grid-cols-4 sm:grid-cols-3 gap-3 pt-4">
                     <AnimatePresence>
                         <PortfolioItems></PortfolioItems>
                     </AnimatePresence>

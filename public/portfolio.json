@@ -54,19 +54,5 @@
         "title": "Project 8",
         "category": "Mobile App Development",
         "img": "./Portfolio_Images/item_8.jpg"
-    },
-    {
-        "id": 9,
-        "category_id": 2,
-        "title": "Project 9",
-        "category": "Graphic Design",
-        "img": "./Portfolio_Images/item_9.jpg"
-    },
-    {
-        "id": 10,
-        "category_id": 1,
-        "title": "Project 10",
-        "category": "Web Development",
-        "img": "./Portfolio_Images/item_10.jpg"
     }
 ]
