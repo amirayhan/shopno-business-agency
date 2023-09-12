@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "date": "2023-09-10",
+        "author": "John Doe",
+        "totalComments": 15,
+        "img": "./blog_images/blog-img-1.jpg",
+        "title": "The Art of Writing JSON",
+        "shortDescription": "Learn the basics of writing structured data in JSON format."
+    },
+    {
+        "id": 2,
+        "date": "2023-09-12",
+        "author": "Jane Smith",
+        "totalComments": 8,
+        "img": "./blog_images/blog-img-2.jpg",
+        "title": "Web Development Trends for 2023",
+        "shortDescription": "Discover the latest trends and technologies shaping web development in 2023."
+    },
+    {
+        "id": 3,
+        "date": "2023-09-15",
+        "author": "Mike Johnson",
+        "totalComments": 12,
+        "img": "./blog_images/blog-img-3.jpg",
+        "title": "Getting Started with React Hooks",
+        "shortDescription": "A beginner's guide to using React Hooks for state management and more."
+    }
+]

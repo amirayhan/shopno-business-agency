@@ -3,7 +3,7 @@ import h2_banner_img from "../../assets/h2_banner_img.png";
 
 const Hero = () => {
     return (
-        <div className="hero w-full pt-20">
+        <div className="hero w-full pt-28">
             <div className="md:max-w-[1480px] max-w-[600px] m-auto grid grid-cols-2 items-center">
                 <div className="hero_content ">
                     <span className="px-6 py-3 bg-blue-100 sm:text-1xl text-blue-600 font-bold rounded-full inline-block">WE ARE EXPERT IN THIS FIELD</span>

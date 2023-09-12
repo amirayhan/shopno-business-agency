@@ -1,7 +1,8 @@
-import React from "react";
-import { useEffect } from "react";
-import { useState } from "react";
-import PartnerItem from "./PartnerItem/PartnerItem";
+import React, { useEffect, useState } from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
+import PartnerItem from "../PartnerItem/PartnerItem";
 
 const Partner = () => {
     const [partnerItems, setPartnerItems] = useState([]);
@@ -12,16 +13,27 @@ const Partner = () => {
     //         .then((data) => setTestimonials(data));
     // }, []);
     useEffect(() => {
-        fetch("partner.json")
+        fetch("../../../public/pertner.json")
             .then((res) => res.json())
-            .then((data) => console.log(data));
+            .then((data) => setPartnerItems(data));
     }, []);
+    var settings = {
+        dots: false,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    };
     return (
         <div className="partner w-full py-28">
-            <div className="md:max-w-[1480px] sm:max-w-[600px] m-auto grid md:grid-cols-4 gap-5">
-                {partnerItems.map((item) => (
-                    <PartnerItem key={item.id} item={item}></PartnerItem>
-                ))}
+            <div className="md:max-w-[1480px] sm:max-w-[600px] m-auto">
+                <Slider {...settings}>
+                    {partnerItems.map((item) => (
+                        <PartnerItem key={item.id} item={item}></PartnerItem>
+                    ))}
+                </Slider>
             </div>
         </div>
     );

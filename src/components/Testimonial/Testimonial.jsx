@@ -1,9 +1,9 @@
 import React from "react";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick-theme.css";
+import "slick-carousel/slick/slick.css";
 import TestimonialItem from "../TestimonialItem/TestimonialItem";
 import { testimonials } from "../data/testimonials";
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const Testimonial = () => {
     // const [testimonials, setTestimonials] = useState([]);
@@ -42,3 +42,5 @@ const Testimonial = () => {
 };
 
 export default Testimonial;
+
+// https://www.npmjs.com/package/react-slick

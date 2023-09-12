@@ -8,6 +8,7 @@
     font-size: 16px;
     font-weight: 400;
     color: #717171;
+    overflow-x: hidden;
 }
 h1,
 h2,
@@ -131,7 +132,15 @@ h6 {
     color: #fff;
 }
 .port_item {
+    cursor: pointer;
     position: relative;
+    overflow: hidden;
+}
+.port_item img {
+    transition: all linear 0.3s;
+}
+.port_item:hover img {
+    scale: 1.1;
 }
 .port_item img {
     width: 100%;
@@ -144,5 +153,27 @@ h6 {
     right: 0;
     padding: 2px 10px;
     background: rgba(0, 0, 0, 0.526);
+    color: #fff;
+}
+.partner .slick-slide {
+    display: flex;
+    justify-content: center;
+}
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fff;
+    transition: all linear 0.4s;
+    z-index: 1000;
+}
+
+.header.fixed {
+    background: rgba(34, 34, 34, 0.95);
+    top: 0;
+    width: 100%;
+}
+.header.fixed .logo h3,
+.header.fixed ul li a {
     color: #fff;
 }

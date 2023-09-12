@@ -5,7 +5,7 @@ import FeatureItem from "../FeatureItem/FeatureItem";
 
 const Features = () => {
     return (
-        <div className="w-full bg-white py-28">
+        <div className="w-full bg-white py-16">
             <div className="md:max-w-[1480px] max-w-[600px] m-auto grid md:grid-cols-5 gap-5 items-center">
                 <div className="features_heading md:col-span-2 sm:col-span-5 xs:col-span-5">
                     <h4 className="text-4xl text-[#ff6809]">Features</h4>

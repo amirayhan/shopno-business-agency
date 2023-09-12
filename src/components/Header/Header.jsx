@@ -4,9 +4,21 @@ import React, { useState } from "react";
 
 const Header = () => {
     const [toggle, setToggle] = useState(false);
+    const [fix, setfix] = useState(false);
+
+    const setFixed = () => {
+        if (window.scrollY >= 140) {
+            setfix(true);
+        } else {
+            setfix(false);
+        }
+    };
+
+    window.addEventListener("scroll", setFixed);
+
     const handleToggleClick = () => setToggle(!toggle);
     return (
-        <div className="header w-full h-[96px] bg-white border-b ">
+        <div className={`${fix ? "header fixed" : "header"} w-full h-[96px]`}>
             <div className="md:max-w-[1480px] max-w-[600px] m-auto w-full h-full flex items-center justify-between ">
                 <a href="#" className="logo">
                     <h3 className="text-5xl">SHOPNO</h3>

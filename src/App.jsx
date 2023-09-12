@@ -1,7 +1,11 @@
 import React from "react";
+import "react-photo-view/dist/react-photo-view.css";
 import About from "./components/About/About";
+import Blog from "./components/Blog/Blog";
+import Contact from "./components/Contact/Contact";
 import Counter from "./components/Counter/Counter";
 import Features from "./components/Features/Features";
+import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Partner from "./components/Partner/Partner";
@@ -21,6 +25,9 @@ const App = () => {
             <WorkTogether></WorkTogether>
             <Portfolio></Portfolio>
             <Partner></Partner>
+            <Blog></Blog>
+            <Contact></Contact>
+            <Footer></Footer>
         </div>
     );
 };
