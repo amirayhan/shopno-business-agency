@@ -24,11 +24,11 @@ const Portfolio = () => {
     return (
         <div className="w-full py-28">
             <div className="section_heading text-center">
-                <h3>RECENT WORK</h3>
-                <h2>Our Portfolio</h2>
+                <h4 className="text-[#ff6809]">RECENT WORK</h4>
+                <h2 className="pb-5">Our Portfolio</h2>
             </div>
             <portfolioContext.Provider value={value}>
-                <div className="filter_cetagories ">
+                <div className="filter_cetagories my-5">
                     <ButtonFilter></ButtonFilter>
                 </div>
                 <div className="md:max-w-[1480px] max-w-[600] m-auto grid md:grid-cols-4 sm:grid-cols-3 gap-3 pt-4">

@@ -33,8 +33,9 @@ const Testimonial = () => {
                 </div>
 
                 <div className="md:col-span-1 sm:order-first">
-                    <h4>TESTIMONIALS</h4>
+                    <h4 className="text-[#ff6809]">TESTIMONIALS</h4>
                     <h2 className="leading-[55px]">What Our Client's Says About Our Best Work.</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sequi voluptatibus? Voluptate, recusandae beatae suscipit nostrum nisi sequi molestiae nemo, nobis sapiente unde eaque officia?</p>
                 </div>
             </div>
         </div>

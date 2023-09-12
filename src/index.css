@@ -123,7 +123,6 @@ h6 {
 }
 .filter_cetagories button {
     padding: 12px 20px;
-    border: 1px solid #cdcdcd;
     background: #ededed;
     color: #222;
 }
@@ -176,4 +175,16 @@ h6 {
 .header.fixed .logo h3,
 .header.fixed ul li a {
     color: #fff;
+}
+.back2top {
+    position: fixed;
+    bottom: -50px;
+    right: 40px;
+    opacity: 0;
+    z-index: 999;
+    transition: all linear 0.2s;
+}
+.back2top.fixed {
+    bottom: 40px;
+    opacity: 1;
 }
