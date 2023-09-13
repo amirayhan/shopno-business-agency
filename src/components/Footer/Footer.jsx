@@ -79,7 +79,12 @@ const Footer = () => {
                 </div>
             </div>
             <div className="md:max-w-[1480px] sm:max-w-[600px] m-auto border-t border-gray-600 py-10">
-                <p className="text-center text-white">© 2023 consultiva, All Rights Reserved amirayhan</p>
+                <p className="text-center text-white">
+                    © 2023 consultiva, All Rights Reserved -{" "}
+                    <a className="text-[#ff6809]" target="_blank" href="github.com/amirayhan/">
+                        amiRayhan
+                    </a>
+                </p>
             </div>
         </div>
     );
