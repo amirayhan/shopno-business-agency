@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "react-photo-view/dist/react-photo-view.css";
+import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
 import About from "./components/About/About";
 import BackToTop from "./components/BackToTop/BackToTop";
 import Blog from "./components/Blog/Blog";
@@ -15,21 +16,38 @@ import Testimonial from "./components/Testimonial/Testimonial";
 import WorkTogether from "./components/WorkTogether/WorkTogether";
 
 const App = () => {
+    const [isLoading, setIsLoading] = useState(false);
+
+    useEffect(() => {
+        setIsLoading(true);
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 3000);
+    }, []);
+
     return (
-        <div>
-            <Header></Header>
-            <Hero></Hero>
-            <Features></Features>
-            <About></About>
-            <Counter></Counter>
-            <Testimonial></Testimonial>
-            <WorkTogether></WorkTogether>
-            <Portfolio></Portfolio>
-            <Blog></Blog>
-            <Contact></Contact>
-            <Partner></Partner>
-            <Footer></Footer>
-            <BackToTop></BackToTop>
+        <div className="app">
+            {isLoading ? (
+                <span className="preloader">
+                    <ClimbingBoxLoader color={"#ff6809"} loading={isLoading} size={20} aria-label="Loading Spinner" data-testid="loader" />
+                </span>
+            ) : (
+                <div>
+                    <Header></Header>
+                    <Hero></Hero>
+                    <Features></Features>
+                    <About></About>
+                    <Counter></Counter>
+                    <Testimonial></Testimonial>
+                    <WorkTogether></WorkTogether>
+                    <Portfolio></Portfolio>
+                    <Blog></Blog>
+                    <Contact></Contact>
+                    <Partner></Partner>
+                    <Footer></Footer>
+                    <BackToTop></BackToTop>
+                </div>
+            )}
         </div>
     );
 };
