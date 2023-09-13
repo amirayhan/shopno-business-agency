@@ -1,4 +1,4 @@
-## Shopno | React Business Web Tempalte <a href="https://shopno-react-business-template.netlify.app/" target="_blank">Live Preview</a>
+## Shopno | React Business Web Template <a href="https://shopno-react-business-template.netlify.app/" target="_blank">Live Preview</a>
 
 <p>Shopno | React Business Web Template is for many purposes like creative business, agencies, personal portfolios, photography, freelancer portfolios, etc. Users will love Your site because it gives them a unique user experience (UX). All components are well organized and named accordingly so it's very easy to change any and all of the design.</p>
 
