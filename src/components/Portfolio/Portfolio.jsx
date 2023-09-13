@@ -22,7 +22,7 @@ const Portfolio = () => {
         setFilteredPortItems,
     };
     return (
-        <div className="w-full py-28">
+        <div className="w-full py-32" id="portfolio">
             <div className="section_heading text-center">
                 <h4 className="text-[#ff6809]">RECENT WORK</h4>
                 <h2 className="pb-5">Our Portfolio</h2>

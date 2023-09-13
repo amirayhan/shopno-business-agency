@@ -9,7 +9,7 @@ const Blog = () => {
             .then((data) => setBlogItems(data));
     }, []);
     return (
-        <div className="w-full bg-gray-100 py-28">
+        <div className="w-full bg-gray-100 py-32" id="blog">
             <div className="text-center mb-5">
                 <h4>Blogs</h4>
                 <h2 className="leading-[55px]">Latest News Updates</h2>

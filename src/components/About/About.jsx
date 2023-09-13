@@ -5,7 +5,7 @@ import about from "../../assets/about.jpg";
 
 const About = () => {
     return (
-        <div className="about w-full bg-[#F7F9FA] py-28">
+        <div className="about w-full bg-[#F7F9FA] py-32" id="about">
             <div className="md:max-w-[1480px] max-w-[600] m-auto grid md:grid-cols-2">
                 <div className="image m-auto">
                     <img src={about} alt="about image" />

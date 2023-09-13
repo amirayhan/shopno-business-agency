@@ -173,8 +173,12 @@ h6 {
     width: 100%;
 }
 .header.fixed .logo h3,
-.header.fixed ul li a {
+.header.fixed ul li a,
+.header.fixed .toggleIconBtn {
     color: #fff;
+}
+.header.fixed ul.small_menu li a {
+    color: #222;
 }
 .back2top {
     position: fixed;
@@ -187,4 +191,8 @@ h6 {
 .back2top.fixed {
     bottom: 40px;
     opacity: 1;
+}
+
+.header ul li .active {
+    color: #ff6809 !important;
 }

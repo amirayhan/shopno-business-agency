@@ -4,7 +4,7 @@ import React from "react";
 
 const Contact = () => {
     return (
-        <div className="w-full bg-white py-28">
+        <div className="w-full bg-white pt-32 pb-24" id="contact">
             <div className="md:max-w-[1480px] sm:max-w-[600px] m-auto grid md:grid-cols-2 gap-10">
                 <div>
                     <h3 className="text-[#ff6809] leading-0">Quick Contact</h3>
