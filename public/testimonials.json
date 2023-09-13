@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "img": "./Testimonial_Person_Img/person1.png",
+        "img": "./testimonial_images/person1.png",
         "name": "Jacob Jones",
         "title": "Co-Founder",
         "rating": 4,
@@ -9,7 +9,7 @@
     },
     {
         "id": 2,
-        "img": "./Testimonial_Person_Img/person2.png",
+        "img": "./testimonial_images/person2.png",
         "name": "David Smith",
         "title": "President of Sales",
         "rating": 5,
@@ -17,7 +17,7 @@
     },
     {
         "id": 3,
-        "img": "./Testimonial_Person_Img/person3.png",
+        "img": "./testimonial_images/person3.png",
         "name": "John Doe",
         "title": "Founder",
         "rating": 3,
@@ -25,7 +25,7 @@
     },
     {
         "id": 4,
-        "img": "./Testimonial_Person_Img/person4.png",
+        "img": "./testimonial_images/person4.png",
         "name": "David Smith",
         "title": "Managing Director",
         "rating": 5,
@@ -33,7 +33,7 @@
     },
     {
         "id": 5,
-        "img": "./Testimonial_Person_Img/person5.png",
+        "img": "./testimonial_images/person5.png",
         "name": "Micle Deno",
         "title": "President",
         "rating": 4,
@@ -41,7 +41,7 @@
     },
     {
         "id": 6,
-        "img": "./Testimonial_Person_Img/person6.png",
+        "img": "./testimonial_images/person6.png",
         "name": "Dain Ambrose",
         "title": "Co-Founder",
         "rating": 3,

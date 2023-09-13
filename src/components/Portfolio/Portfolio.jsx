@@ -7,9 +7,11 @@ export const portfolioContext = createContext();
 const Portfolio = () => {
     const [portfolioItems, setPortfolioItems] = useState([]);
     const [filteredPortItems, setFilteredPortItems] = useState([]);
+
     const getPorftolioItems = async () => {
-        const response = await fetch("../../../public/portfolio.json");
+        const response = await fetch("portfolio.json");
         const items = await response.json();
+        console.log(items);
         setPortfolioItems(items);
         setFilteredPortItems(items);
     };

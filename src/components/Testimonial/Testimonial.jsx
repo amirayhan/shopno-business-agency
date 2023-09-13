@@ -1,17 +1,16 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import TestimonialItem from "../TestimonialItem/TestimonialItem";
-import { testimonials } from "../data/testimonials";
 
 const Testimonial = () => {
-    // const [testimonials, setTestimonials] = useState([]);
-    // useEffect(() => {
-    //     fetch("testimonials.json")
-    //         .then((res) => res.json())
-    //         .then((data) => setTestimonials(data));
-    // }, []);
+    const [testimonials, setTestimonials] = useState([]);
+    useEffect(() => {
+        fetch("testimonials.json")
+            .then((res) => res.json())
+            .then((data) => setTestimonials(data));
+    }, []);
     var settings = {
         dots: true,
         infinite: true,

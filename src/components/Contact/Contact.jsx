@@ -1,8 +1,13 @@
 import { faEnvelope, faHeadset, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
+    const [message, setMessage] = useState("Your initial text here");
+
+    const handleMessageChange = (e) => {
+        setMessage(e.target.value);
+    };
     return (
         <div className="w-full bg-white pt-32 pb-24" id="contact">
             <div className="md:max-w-[1480px] sm:max-w-[600px] m-auto grid md:grid-cols-2 gap-10">
@@ -49,7 +54,7 @@ const Contact = () => {
                             <option value="selected">--- Subject ---</option>
                             <option value="Business">Business</option>
                         </select>
-                        <textarea className="rounded-none border-none p-3 focus:no-underline bg-white mt-7 w-full" name="message" id="" cols="30" rows="5">
+                        <textarea value={message} onChange={handleMessageChange} className="rounded-none border-none p-3 focus:no-underline bg-white mt-7 w-full" name="message" cols="30" rows="5">
                             Dear,
                         </textarea>
                         <button className="px-6 py-3 theme_bg_color text-white font-bold rounded-md hover:bg-[#222] transition-all hover:ease-linear duration-300 mt-7">Sign Up For Free</button>
