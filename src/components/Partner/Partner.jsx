@@ -6,14 +6,9 @@ import PartnerItem from "../PartnerItem/PartnerItem";
 
 const Partner = () => {
     const [partnerItems, setPartnerItems] = useState([]);
-    // const [testimonials, setTestimonials] = useState([]);
-    // useEffect(() => {
-    //     fetch("testimonials.json")
-    //         .then((res) => res.json())
-    //         .then((data) => setTestimonials(data));
-    // }, []);
+
     useEffect(() => {
-        fetch("../../../public/pertner.json")
+        fetch("pertner.json")
             .then((res) => res.json())
             .then((data) => setPartnerItems(data));
     }, []);
